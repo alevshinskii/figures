@@ -1,4 +1,4 @@
-﻿namespace FiguresLib.NewFolder
+﻿namespace FiguresLib.Figures
 {
     public class Circle : Figure
     {
