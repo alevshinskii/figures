@@ -8,6 +8,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{321BEE1D-5EAE-4A97-AD44-1053711923E6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sql", "sql", "{5214B752-37A2-48F8-9DD6-6D8ED8C2B051}"
+	ProjectSection(SolutionItems) = preProject
+		task2.sql = task2.sql
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiguresLib", "src\FiguresLib\FiguresLib.csproj", "{9946433D-86E4-47E9-87FB-3D6078A18E83}"
 EndProject
