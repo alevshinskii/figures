@@ -19,11 +19,13 @@
             return Math.Sqrt(p * (p - SideA) * (p - SideB) * (p - SideC));
         }
 
-        public bool IsEquilateral
+        public bool IsRight
         {
             get
             {
-                return SideA == SideB && SideB == SideC;
+                return SideA * SideA + SideB * SideB == SideC * SideC ||
+                       SideA * SideA + SideC * SideC == SideB * SideB ||
+                       SideB * SideB + SideC * SideC == SideA * SideA;
             }
         }
     }
